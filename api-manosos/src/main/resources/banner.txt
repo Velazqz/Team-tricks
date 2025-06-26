@@ -1,0 +1,44 @@
+                                    ▓▓
+                                  █░  ▓▓
+                                ▒█     ▓▓
+                               ▒█▒▒▒░░  █
+                        ░███▓▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓█████░
+                     ██${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}██░
+                  ▒█▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓█▓▓
+                ▒█${AnsiColor.GREEN}▒▒▒▒▒${AnsiColor.DEFAULT}██${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓█${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓█
+               ▓▓${AnsiColor.GREEN}▒▒▒▒▒▒${AnsiColor.DEFAULT}██▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}██▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█▒
+              ▓▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█▒░▓▓
+             ▒█${AnsiColor.GREEN}▒▒▒▒▒▒${AnsiColor.DEFAULT}▓██▒█       ▒███▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█▒░█
+             █${AnsiColor.GREEN}▒▒▒▒${AnsiColor.DEFAULT}▓█▒█▒ ▒█        █  ░█▓█▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}██░
+             █${AnsiColor.GREEN}▒▒${AnsiColor.DEFAULT}▓█                 ▒▒     █▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓▓
+          ▒██▓${AnsiColor.GREEN}▒${AnsiColor.DEFAULT}▓▓                           █${AnsiColor.GREEN}▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓██
+     ███▓${AnsiColor.GREEN}▒▒▒${AnsiColor.DEFAULT}█▓▒█                             █▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓█▒
+     ▒█${AnsiColor.GREEN}▒▒▒▒▒${AnsiColor.DEFAULT}█▒▒█   ░▒             ░▒           █${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓███
+       ▒█████▒█░  ██▒░           ██▒░         ▓▓${AnsiColor.GREEN}▒▒▒${AnsiColor.DEFAULT}█${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}██
+           █${AnsiColor.GREEN}▒${AnsiColor.DEFAULT}█    ████           ████░        ▓▓${AnsiColor.GREEN}▒▒${AnsiColor.DEFAULT}▓▒░▒▓▓▓▓▓▓▓█
+          ▓▓▓${AnsiColor.GREEN}▒${AnsiColor.DEFAULT}     ░░             ░░          █▓${AnsiColor.GREEN}▒▒▒▒${AnsiColor.DEFAULT}▓██▓███░
+          █${AnsiColor.GREEN}▒${AnsiColor.DEFAULT}█                                 █${AnsiColor.GREEN}▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█▒
+          █${AnsiColor.GREEN}▒${AnsiColor.DEFAULT}█          ░▓ ▓▒                 █${AnsiColor.GREEN}▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█
+          ▒█${AnsiColor.GREEN}▒${AnsiColor.DEFAULT}█           █                  █${AnsiColor.GREEN}▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█░
+           ▒█${AnsiColor.GREEN}▒${AnsiColor.DEFAULT}█▒                          █▓${AnsiColor.GREEN}▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓█░▒▓
+             █▓${AnsiColor.GREEN}▒${AnsiColor.DEFAULT}██▒                    ▓█▓${AnsiColor.GREEN}▒▒▒▒▒▒▒${AnsiColor.DEFAULT}██▒
+               ▒█▓${AnsiColor.GREEN}▒▒${AnsiColor.DEFAULT}▓████▓▓▓▓▓▓▓▓████▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓▓▒▒▓█▓█
+                  █▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█▓█▒
+               ░██▓${AnsiColor.GREEN}▒▒▒▒▒▒${AnsiColor.DEFAULT}██▒░░▒▓█▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓█░▒██    █▒█░
+             ░█${AnsiColor.GREEN}▓▓${AnsiColor.DEFAULT}█${AnsiColor.GREEN}▒▒▒▒${AnsiColor.DEFAULT}▓▓        ░ ░█${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓▓  █   █${AnsiColor.GREEN}▒▒▒${AnsiColor.DEFAULT}█
+            █▓${AnsiColor.GREEN}▒▒${AnsiColor.DEFAULT}█▓${AnsiColor.GREEN}▒▒▒${AnsiColor.DEFAULT}█ ░ ░ ░ ░      ▒▓▒${AnsiColor.GREEN}▒▒▒${AnsiColor.DEFAULT}█${AnsiColor.GREEN}▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓${AnsiColor.GREEN}▒▒${AnsiColor.DEFAULT}▓▓${AnsiColor.GREEN}▒▒${AnsiColor.DEFAULT}█ ▓▓${AnsiColor.GREEN}▒▒▒${AnsiColor.DEFAULT}█
+           ▓▓${AnsiColor.GREEN}▒▒${AnsiColor.DEFAULT}█▓${AnsiColor.GREEN}▒▒▒${AnsiColor.DEFAULT}█         ░ ░ ░  ▒▓${AnsiColor.GREEN}▒▒▒${AnsiColor.DEFAULT}█${AnsiColor.GREEN}▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█▓${AnsiColor.GREEN}▒▒▒${AnsiColor.DEFAULT}████${AnsiColor.GREEN}▒▒▒▒▒${AnsiColor.DEFAULT}█
+            █▓▓█${AnsiColor.GREEN}▒▒▒${AnsiColor.DEFAULT}█░ ░ ░ ░ ░      ░  █${AnsiColor.GREEN}▒▒▒▒${AnsiColor.DEFAULT}█${AnsiColor.GREEN}▒▒▒▒▒▒${AnsiColor.DEFAULT}█▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█
+              ▒▓${AnsiColor.GREEN}▒▒▒${AnsiColor.DEFAULT}▓         ░ ░ ░  ░ ${AnsiColor.GREEN}▒▒▒▒▒${AnsiColor.DEFAULT}█▓${AnsiColor.GREEN}▒▒▒▒${AnsiColor.DEFAULT}▓█${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█▒
+              ▓▓${AnsiColor.GREEN}▒▒${AnsiColor.DEFAULT}▓▒ ░ ░ ░ ░      ░   ░▓${AnsiColor.GREEN}▒▒▒${AnsiColor.DEFAULT}▓████▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█
+              █${AnsiColor.GREEN}▒▒▒${AnsiColor.DEFAULT}▓▒        ░ ░ ░  ░  ░▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓█
+              █▓${AnsiColor.GREEN}▒▒▒${AnsiColor.DEFAULT}▓ ░ ░ ░       ░  ░ ▒▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█▓
+              ▒▓${AnsiColor.GREEN}▒▒▒${AnsiColor.DEFAULT}▓▒     ░ ░ ░   ░  ░█${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓█
+               ▓▓${AnsiColor.GREEN}▒▒▒▒${AnsiColor.DEFAULT}█░ ░      ░   ░ █${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓█▓
+                ░█▓${AnsiColor.GREEN}▒▒▒▒${AnsiColor.DEFAULT}▓█▒ ░ ░  ░ ▒█${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}███▒
+                   ▓██▓▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓${AnsiColor.GREEN}▒▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█
+                    █${AnsiColor.GREEN}▒▒▒▒▒${AnsiColor.DEFAULT}▓▓████████████▓█${AnsiColor.GREEN}▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓▒
+                    █${AnsiColor.GREEN}▒▒▒▒▒▒▒${AnsiColor.DEFAULT}▓▒           █${AnsiColor.GREEN}▒▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█
+                    █${AnsiColor.GREEN}▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█            █${AnsiColor.GREEN}▒▒▒▒▒▒▒${AnsiColor.DEFAULT}█▒
+                    █▓██████             █████▓▓█░
+🦖Team-tricky🐐:: Spring Boot${spring-boot.formatted-version} ::
