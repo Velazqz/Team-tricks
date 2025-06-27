@@ -14,11 +14,11 @@ class GlobalExceptionHandler {
   @ExceptionHandler(ResponseStatusException)
   ResponseEntity<Map> handleResponseStatus(ResponseStatusException ex) {
     Map body = [
-      code   : ex.status.value(),
+      code   : ex.body.status,
       message: ex.reason,
       meta   : [ errors: [ ex.reason ] ]
     ]
-    return new ResponseEntity<>(body, ex.status)
+    return new ResponseEntity<>(body, ex.getStatusCode())
   }
 
   @ExceptionHandler(Exception)

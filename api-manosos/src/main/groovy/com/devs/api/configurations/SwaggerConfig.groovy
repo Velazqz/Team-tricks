@@ -1,24 +1,15 @@
 package com.devs.api.configurations
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import springfox.documentation.builders.PathSelectors;
-import springfox.documentation.builders.RequestHandlerSelectors;
-import springfox.documentation.service.ApiInfo;
-import springfox.documentation.service.Contact;
-import springfox.documentation.spi.DocumentationType;
-import springfox.documentation.spring.web.plugins.Docket;
+import io.swagger.v3.oas.annotations.OpenAPIDefinition
+import io.swagger.v3.oas.annotations.info.Info
+import org.springframework.context.annotation.Configuration
 
+@OpenAPIDefinition(
+  info = @Info(
+    title = 'Mi API',
+    version = 'v1',
+    description = 'Documentación OpenAPI con Springdoc'
+  )
+)
 @Configuration
-public class SpringFoxConfig {
-
-  @Bean
-  public Docket api() {
-    return new Docket(DocumentationType.SWAGGER_2)
-    .apiInfo()
-    .select()
-    .apis(RequestHandlerSelectors.basePackage("com.devs.api.controller"))
-    .paths(PathSelectors.any())
-    .build();
-  }
-}
+class SwaggerConfig { }
