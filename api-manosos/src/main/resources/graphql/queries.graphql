@@ -1,0 +1,47 @@
+# =================== QUERIES ===================
+#Obtener todos
+query {
+  books {
+    id
+    title
+    isbn
+    author {
+      firstName
+      lastName
+    }
+  }
+}
+
+#Obtener libro por ID
+query {
+  bookById(id: "1") {
+    id
+    title
+    author {
+      firstName
+    }
+  }
+}
+
+#Obtener todos los autores
+query {
+  authors {
+    id
+    firstName
+    lastName
+    books {
+      title
+    }
+  }
+}
+
+#Obtener autor por ID
+query {
+  authorById(id: "1") {
+    id
+    firstName
+    books {
+      title
+    }
+  }
+}

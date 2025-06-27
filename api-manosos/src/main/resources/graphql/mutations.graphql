@@ -1,0 +1,50 @@
+# =================== MUTATIONS ===================
+
+#Agregar nuevo autor
+mutation {
+  addAuthor(firstName: "Haruki", lastName: "Murakami") {
+    id
+    firstName
+    lastName
+  }
+}
+
+#Agregar nuevo libro con el autor recien creado
+mutation {
+  addBook(title: "Kafka en la orilla", isbn: "978-8483109315", authorId: "3") {
+    id
+    title
+    isbn
+    author {
+      firstName
+      lastName
+    }
+  }
+}
+
+#Actualizar libro
+mutation {
+  updateBook(id: "1", title: "Ficciones (Nueva Edición)") {
+    id
+    title
+  }
+}
+
+#Actualizar autor
+mutation {
+  updateAuthor(id: "1", lastName: "Borges Acevedo") {
+    id
+    firstName
+    lastName
+  }
+}
+
+#Eliminar libro
+mutation {
+  deleteBook(id: "4")
+}
+
+#Eliminar autor
+mutation {
+  deleteAuthor(id: "3")
+}
