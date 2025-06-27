@@ -7,10 +7,10 @@ import groovy.util.logging.Slf4j
 @Slf4j
 @RestController
 
-class GreetingsController {
+class TestController {
 
-  @GetMapping("greetings")
-  String greetings(){
-    "Greetings"
+  @GetMapping("Test")
+  String test(){
+    "Testing, testing"
   }
 }
