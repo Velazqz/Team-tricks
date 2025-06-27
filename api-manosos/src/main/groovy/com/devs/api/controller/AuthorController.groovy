@@ -10,6 +10,7 @@ import org.springframework.graphql.data.method.annotation.QueryMapping
 import org.springframework.graphql.data.method.annotation.SchemaMapping
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Controller
+import java.util.stream.Collectors
 
 @Controller
 class AuthorController {
@@ -21,7 +22,7 @@ class AuthorController {
   BookRepository bookRepository
 
   @QueryMapping
-  Author authorById(@Argument String id) {
+  Author authorById(@Argument("id") String id) {
     authorRepository.findById(id).orElse(null)
   }
 
@@ -31,14 +32,14 @@ class AuthorController {
   }
 
   @MutationMapping
-  Author addAuthor(@Argument String firstName, @Argument String lastName) {
+  Author addAuthor(@Argument("firstName") String firstName, @Argument("lastName") String lastName) {
     Author newAuthor = new Author(firstName: firstName, lastName: lastName)
     authorRepository.save(newAuthor)
     newAuthor
   }
 
   @MutationMapping
-  Author updateAuthor(@Argument String id, @Argument String firstName, @Argument String lastName) {
+  Author updateAuthor(@Argument("id") String id, @Argument("firstName") String firstName, @Argument("lastName") String lastName) {
     Author existingAuthor = authorRepository.findById(id)
       .orElseThrow({ new IllegalArgumentException("Author with ID ${id} not found") })
 
@@ -52,7 +53,7 @@ class AuthorController {
   }
 
   @MutationMapping
-  Boolean deleteAuthor(@Argument String id) {
+  Boolean deleteAuthor(@Argument("id") String id) {
     Author authorToDelete = authorRepository.findById(id).orElse(null)
     if (authorToDelete) {
       authorToDelete.books.clear()

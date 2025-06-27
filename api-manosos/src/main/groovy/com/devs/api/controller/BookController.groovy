@@ -21,7 +21,7 @@ class BookController {
   BookRepository bookRepository
 
   @QueryMapping
-  Book bookById(@Argument String id) {
+  Book bookById(@Argument("id") String id) {
     bookRepository.findById(id).orElse(null)
   }
 
@@ -31,7 +31,7 @@ class BookController {
   }
 
   @MutationMapping
-  Book addBook(@Argument String title, @Argument String isbn, @Argument String authorId) {
+  Book addBook(@Argument("title") String title, @Argument("isbn") String isbn, @Argument("authorId") String authorId) {
     Author author = authorRepository.findById(authorId)
       .orElseThrow({ new IllegalArgumentException("Author with ID ${authorId} not found") })
 
@@ -42,7 +42,7 @@ class BookController {
   }
 
   @MutationMapping
-  Book updateBook(@Argument String id, @Argument String title, @Argument String isbn, @Argument String authorId) {
+  Book updateBook(@Argument("id") String id, @Argument("title") String title, @Argument("isbn") String isbn, @Argument("authorId") String authorId) {
     Book existingBook = bookRepository.findById(id)
       .orElseThrow({ new IllegalArgumentException("Book with ID ${id} not found") })
 
@@ -66,7 +66,7 @@ class BookController {
   }
 
   @MutationMapping
-  Boolean deleteBook(@Argument String id) {
+  Boolean deleteBook(@Argument("id") String id) {
     Book bookToDelete = bookRepository.findById(id).orElse(null)
     if (bookToDelete) {
 
